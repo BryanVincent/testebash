@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Meu primeiro JavaScript na página HTML</h1>
+
+    <p id= "teste"> Boa tarde!!!</p>
+
+    <p id="2paragrafo">
+        Esse é meu paragrafo!
+    </p>
+
+<button type="button"
+onclick="document.getElementById('2paragrafo').innerHTML = Date()"> 
+
+Clique aqui para saber a hora 
+
+</button>
+
+
+<script>
+document.getElementById('teste').style.fontSize = "40px";
+
+document.getElementById('2paragrafo').style.fontSize = "20px";
+
+window.document.getElementsByTagName('p')[0].style.color = "blue"
+
+window.document.getElementsByTagName('p')[1].style.color = "orange"
+
+
+</script>
+</body>
+</html>

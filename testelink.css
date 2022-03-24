@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2? family= Dancing+Script & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Balsamiq+Sans:ital,wght@1.700 & display=swap');
+
+
+
+
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+
+}
+a:hover{/*passando o mouse*/
+    color: rgb(247, 0, 255);
+    background-color: blue;
+}
+
+a:active{/*Segundo o click*/
+    color: black;
+    background-color: yellow;
+}
+
+a:visited{/*Depois de visitado*/
+    color: green;
+}
+div> a{
+    color: red;
+    background-color: aquamarine;
+}
+
+p{
+font-family:'Dancing Script', cursive;
+font-style: oblique;
+font-weight: bold;
+font-variant: small-caps;
+
+font-size: 30px;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+a{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+
+

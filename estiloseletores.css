@@ -1,0 +1,16 @@
+h1{
+    color:brown;
+    background-color:blue;
+}
+ p{color:greenyellow;
+background-color:black;
+
+}
+#principal{
+    background-color:orange;
+
+}
+p.secundaria{
+    background-color:blueviolet;
+    
+}
